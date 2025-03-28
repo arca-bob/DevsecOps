@@ -14,7 +14,7 @@ class CarController {
     private final List<Carfeature> cars = new ArrayList<>();
 
     public CarController() {
-        cars.add(new Carfeature("Ferrari", 999, "11AA22"));
+        cars.add(new Carfeature("Porshe", 999, "11AA22"));
         cars.add(new Carfeature("Tesla", 120000, "69BB22"));
         // Add more cars here if needed
     }
